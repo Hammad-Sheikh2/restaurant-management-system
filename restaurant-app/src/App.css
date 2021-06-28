@@ -1,0 +1,115 @@
+html,body {
+  min-height: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 60s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.subheading{
+  font-family: Brush Script MT;
+  color :red;
+}
+.ftco-footer{
+  background-color: black;
+}
+.ftco-footer-widget{
+  margin-top: 80px;
+  color: white;
+  text-align: left;
+}
+
+.ftco-heading-2{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+
+.ftco-footer-social
+{
+  list-style: none;
+  display: flex;
+}
+.ftco-animate
+{
+  margin-right: 10px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  background-color: #E52B34;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ftco-animate a{
+  color: white;
+}
+.opened tr td{
+  padding-right: 40px;
+}
+.thumb-menu
+{
+  width: 80px;
+  height: 100px;
+}
+.ftco-social {
+  list-style: none;
+}
+.ftco-social-list-item{
+  color: black;
+  width: 30px;
+  height: 30px;
+  background-color:yellow;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.staff{
+  text-align: left;
+}
+.custom-scrollbar ::-webkit-scrollbar{
+  width: 20px;
+}
+.custom-scrollbar ::-webkit-scrollbar-track{
+  border: 7px solid #1e1e1f6c;
+  box-shadow: inset 0 0 2.5px 2px #81817d94;
+}
+.custom-scrollbar ::-webkit-scrollbar-thumb{
+  background: linear-gradient(45deg,#ff012bec,#ff5e00f3);
+  border-radius: 3px;
+}
